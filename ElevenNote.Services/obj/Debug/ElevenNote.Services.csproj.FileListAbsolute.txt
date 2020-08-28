@@ -1,0 +1,16 @@
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Services.dll.config
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Services.dll
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Services.pdb
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\EntityFramework.dll
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\EntityFramework.xml
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csprojAssemblyReference.cache
+C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CoreCompileInputs.cache
+C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete
+C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.dll
+C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.pdb

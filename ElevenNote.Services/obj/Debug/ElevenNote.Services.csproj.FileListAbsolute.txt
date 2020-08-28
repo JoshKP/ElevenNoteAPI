@@ -14,3 +14,9 @@ C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.
 C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete
 C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.dll
 C:\EFA Work\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.pdb
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.pdb
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll.config
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.pdb
+C:\EFA Work\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll.config

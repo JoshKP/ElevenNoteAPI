@@ -35,24 +35,24 @@ namespace ElevenNote.Services
             }
         }
 
-        public IEnumerable<NoteListItem> GetNotes()
-        {
+        public IEnumerable<NoteListItem> GetNotes()    // Getting all notes from ONE user and putting them into a list
+        {                                              // Creates a temporary instance of ApplicationDbContext
             using (var ctx = new ApplicationDbContext())
-            {
+            {                                          // Instantiates an IQueryable called query
                 var query =
-                    ctx
-                        .Notes
-                        .Where(e => e.OwnerId == _userId)
-                        .Select(
-                        e =>
-                            new NoteListItem
+                    ctx                                // <--- our ApplicationDbContext object from line 40
+                        .Notes                         // <--- Notes DbSet<Note>
+                        .Where(e => e.OwnerId == _userId)   // <--- Filters through Notes for entities with an OwnerId that matches the current User's Id
+                        .Select(                       // <--- Iterates through the entities that passed through the filter, and performs whatever code you put inside its body
+                        e =>                           // <--- Uses a lamda to take whatever entity the .Select method is currently running code for (e is our Note entity)
+                            new NoteListItem           // <--- Creates a new NoteListItem to essentially "copy" the properties from e (our Note) to the NoteListItem
                             {
                                 NoteId = e.NoteId,
                                 Title = e.Title,
                                 CreatedUtc = e.CreatedUtc
-                            }
+                            }                          // <--- This NoteListItem is added to our IQueryable object query
                        );
-                return query.ToArray();
+                return query.ToArray();                // <--- Converts our Iqueryable object to an Array
             }
         }
         public NoteDetail GetNoteById(int id)
